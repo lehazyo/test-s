@@ -1,7 +1,8 @@
 import styles from './app.module.css';
+import './index.css';
+import './fonts.css';
 import { AppUpper } from './components/app-upper/app-upper';
 import { Footer } from './components/footer/footer';
-import './index.css';
 
 export const App = () => {
   return (

@@ -4,6 +4,15 @@ body, html {
   height: 100%;
 }
 
+body {
+  color: #000;
+  font-family: ProximaNova, sans-serif;
+}
+
+a {
+  color: #3DBDF6;
+}
+
 figure {
   margin: 0;
 }
