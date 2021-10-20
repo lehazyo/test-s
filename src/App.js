@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './app.module.css';
 import './index.css';
 import './fonts.css';
@@ -12,5 +13,3 @@ export const App = () => {
     </div>
   );
 };
-
-export default App;
