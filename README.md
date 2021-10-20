@@ -10,17 +10,21 @@
 >
 > Статьи в виде XML находится по ссылке [ДАННЫЕ УДАЛЕНЫ] где заголовок содержится в тэге:
 >
-```<censored-tag-title>
+```
+<censored-tag-title>
 Топ-6 сервисов для проверки кроссбраузерности сайта
-</censored-tag-title>```
+</censored-tag-title>
+```
 >
 > а текст статьи в тэге:
 >
-```<censored-tag-content>
+```
+<censored-tag-content>
 <![CDATA[
 …
 ]]>
-</censored-tag-content>```
+</censored-tag-content>
+```
 > 
 > Статьи должны прогружаться в приложение динамически из URL, а не просто сохранены в виде локальных данных.
 > 
