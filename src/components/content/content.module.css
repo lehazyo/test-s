@@ -23,5 +23,7 @@
 }
 
 .items {
+  display: flex;
+  flex-grow: 1;
   border-top: 2px solid #F7FAFB;
 }

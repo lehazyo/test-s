@@ -1,0 +1,14 @@
+.wrapper {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin: -31px 0 0 -31px;
+  border-top: 4px solid #3DBDF6;
+  border-radius: 50%;
+  animation: loadingRotation infinite linear .5s;
+}
+
+@keyframes loadingRotation {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
