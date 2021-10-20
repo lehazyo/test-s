@@ -1,9 +1,3 @@
-@import content from '../../content/content.module.css';
-
-.wrapper {
-  
-}
-
 .wrapper:not(.expanded) {
   border-bottom: 1px solid #F0F5F7;
 }
