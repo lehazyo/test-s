@@ -1,0 +1,44 @@
+@import content from '../../content/content.module.css';
+
+.wrapper {
+  
+}
+
+.wrapper:not(.expanded) {
+  border-bottom: 1px solid #F0F5F7;
+}
+
+.header {
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.content {
+  padding: 13px 20px 24px 20px;
+  margin: 0 -20px;
+  background-color: #F3FCFF;
+}
+
+.content,
+.content p,
+.content ul,
+.content li {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.content a {
+  text-decoration: underline;
+}
+
+.content p {
+  margin: 21px 0;
+}
+
+.content p:first-child {
+  margin-top: 0;
+}
+
+.content p:last-child {
+  margin-bottom: 0;
+}

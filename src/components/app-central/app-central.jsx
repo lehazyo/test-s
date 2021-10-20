@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import styles from './app-central.module.css';
 import { Header } from '../header/header';
 import { Content } from '../content/content';
+import { Journal } from '../journal/journal';
 import { AppContext } from '../..';
 
 export const AppCentral = () => {
@@ -11,7 +12,7 @@ export const AppCentral = () => {
     <div className={styles.wrapper}>
       <Header />
       <Content header={currentHeader} upperHeader={currentUpperHeader}>
-        some content
+        <Journal />
       </Content>
     </div>
   );
