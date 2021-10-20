@@ -1,6 +1,6 @@
 .wrapper {
+  flex-shrink: 0;
   width: 211px;
-  flex-grow: 1;
   background-color: #062436;
 }
 
