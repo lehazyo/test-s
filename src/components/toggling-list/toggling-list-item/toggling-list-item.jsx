@@ -15,7 +15,12 @@ export const TogglingListItem = ({ title, content }) => {
 
   return (
     <div onClick={toggleClick} className={togglingListItemCssClasses(expanded)}>
-      <header className={styles.header}>{title}</header>
+      <header
+        aria-label={`${expanded ? "Закрыть" : "Открыть"} пункт «${title}»`}
+        className={styles.header}
+      >
+        {title}
+      </header>
       {contentElement}
     </div>
   );

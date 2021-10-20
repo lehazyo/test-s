@@ -8,9 +8,10 @@ export const NotificationsIndicator = () => {
 
   return (    
     <figure className={styles.wrapper}>
-      <IcNotification />
+      <a aria-label="Открыть уведомления" className={styles.link} href="/notifications/">
+        <IcNotification />
+      </a>
       <span className={styles.counter}>{notificationsCount}</span>
-      <a aria-label="Открыть уведомления" className={styles.link} href="/notifications/"></a>
     </figure>
   );
 };

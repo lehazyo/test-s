@@ -3,9 +3,19 @@ import { sideMenuItemCssClasses } from "./side-menu-item-css-classes";
 import styles from './side-menu-item.module.css';
 
 export const SideMenuItem = ({ iconName, title, href, selected }) => {
+  const titleElement = <span className={styles.title}>{title}</span>;
+
   const linkElement = (selected)
-    ? null
-    : <a aria-label={`Перейти в раздел ${title}`} className={styles.link} href={href}></a>
+    ? titleElement
+    : (
+      <a 
+        aria-label={`Перейти в раздел ${title}`}
+        className={styles.link}
+        href={href}
+      >
+        {titleElement}
+      </a>
+    );
 
   return (
     <div className={sideMenuItemCssClasses(selected)}>
@@ -18,7 +28,6 @@ export const SideMenuItem = ({ iconName, title, href, selected }) => {
         />
       </figure>
       {linkElement}
-      <span className={styles.title}>{title}</span>
     </div>
   );
 };
