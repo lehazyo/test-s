@@ -1,0 +1,21 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+svg {
+  display: inline-block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+}

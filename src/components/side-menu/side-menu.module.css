@@ -1,0 +1,9 @@
+.wrapper {
+  width: 211px;
+  flex-grow: 1;
+  background-color: #062436;
+}
+
+.logo-wrapper {
+  padding: 20px;
+}
