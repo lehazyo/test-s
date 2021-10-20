@@ -10,7 +10,12 @@ export const SideMenuItem = ({ iconName, title, href, selected }) => {
   return (
     <div className={sideMenuItemCssClasses(selected)}>
       <figure className={styles["icon-wrapper"]}>
-        <img className={styles.icon} src={`/icons/${iconName}.svg`} />
+        <img
+          alt={title}
+          aria-label={`Иконка для пункта меню ${title}`}
+          className={styles.icon}
+          src={`/icons/${iconName}.svg`}
+        />
       </figure>
       {linkElement}
       <span className={styles.title}>{title}</span>

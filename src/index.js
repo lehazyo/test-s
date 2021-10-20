@@ -6,6 +6,9 @@ const contextValue = {
   currentUser: "vikavishny",
   balance: "100.00",
   notificationsCount: 1,
+
+  currentHeader: "Бортовой журнал",
+  currentUpperHeader: "Бортовой журнал",
 };
 export const AppContext = createContext({});
 
