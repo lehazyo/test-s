@@ -1,3 +1,37 @@
 .wrapper {
-  
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 40px;
+}
+
+.wrapper:not(:first-child) {
+  margin-top: 9px;
+}
+
+.selected {
+  background-color: #15526A;
+  box-shadow: inset 6px 0 0 #3DBDF6;
+}
+
+.link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 57px;
+  padding-left: 4px;
+}
+
+.title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
 }

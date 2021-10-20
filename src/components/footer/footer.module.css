@@ -1,4 +1,12 @@
 .wrapper {
+  display: flex;
   flex-shrink: 0;
   height: 101px;
+  padding: 20px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.phones {
+  margin-left: auto;
 }

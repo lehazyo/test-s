@@ -7,3 +7,9 @@
 .logo-wrapper {
   padding: 20px;
 }
+
+.items-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
