@@ -24,7 +24,7 @@ export const SideMenuItem = ({ iconName, title, href, selected }) => {
           alt={title}
           aria-label={`Иконка для пункта меню ${title}`}
           className={styles.icon}
-          src={`/icons/${iconName}.svg`}
+          src={`/test-s/build/icons/${iconName}.svg`}
         />
       </figure>
       {linkElement}
